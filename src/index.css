@@ -24,6 +24,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.container {
+  max-width: 1240px;
+  margin: auto;
+}
+
+.btn {
+  color: #fff;
+  padding: 12px 24px;
+  background-image: linear-gradient(45deg, #4f46e5 0%, #3b82f6 100%);
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: translateX(4px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+}
 /* :root {
   --text: #6b6375;
   --text-h: #08060d;
